@@ -4,7 +4,7 @@
   border: 0;
 }
 
-div {
+section {
   padding: 20px;
 }
 
@@ -41,9 +41,11 @@ ol {
   padding-bottom: 20px;
   color: red;
 }
+
 .fifth {
   background-color: rgb(255, 245, 233);
 }
+
 .fourth > p + p {
   background: rgb(250, 229, 204);
   width: 100px;
