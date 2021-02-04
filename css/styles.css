@@ -118,13 +118,39 @@ span {
 
 .img_info_block {
     position: relative;
+    text-align: center;
 }
 
 .img_info_block div {
     position: absolute;
     width: 300px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #ffffff;
+    opacity: 0.7;
     bottom: 3px;
     text-align: center;
     font-size: large;
+}
+
+.young_pug {
+    padding: 0 96px;
+}
+
+.img_info_block div:nth-child(4) {
+    left: 400px;
+}
+
+.img_info_block div:last-child {
+    left: 800px;
+}
+
+.young_pug:hover,
+.small_pug:hover,
+.old_pug:hover {
+    cursor: pointer;
+}
+
+.young_pug:hover ~ div.second_title,
+.small_pug:hover ~ div.first_title,
+.old_pug:hover ~ div.third_title {
+    opacity: 1;
 }
