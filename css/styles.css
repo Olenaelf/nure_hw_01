@@ -116,37 +116,30 @@ span {
     margin: 0 auto;
 }
 
-.img_info_block {
+.img1,
+.img2,
+.img3 {
     position: relative;
-    text-align: center;
+    display: inline-block;
 }
 
-.img_info_block div {
+.first_title,
+.second_title,
+.third_title {
     position: absolute;
+    top: 182px;
     width: 300px;
     background-color: #ffffff;
     opacity: 0.7;
-    bottom: 3px;
     text-align: center;
     font-size: large;
 }
 
+.second_title {
+    left: 96px;
+}
 .young_pug {
     padding: 0 96px;
-}
-
-.img_info_block div:nth-child(4) {
-    left: 400px;
-}
-
-.img_info_block div:last-child {
-    left: 800px;
-}
-
-.young_pug:hover,
-.small_pug:hover,
-.old_pug:hover {
-    cursor: pointer;
 }
 
 .young_pug:hover ~ div.second_title,
